@@ -1,0 +1,63 @@
+body {
+  overflow-x: hidden;
+}
+.contact {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 100%;
+  h1 {
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: 58px;
+    color: #003143;
+    margin-right: 150px;
+  }
+  p {
+    width: 60%;
+    padding: 20px;
+    margin-left: 200px;
+  }
+  form {
+    margin-left: 100px;
+    max-width: 100%;
+    input {
+      width: 100%;
+      border: 1px solid #d1d7db;
+      padding: 10px;
+      margin-bottom: 25px;
+    }
+    textarea {
+      width: 100%;
+      border: 1px solid #d1d7db;
+      margin-bottom: 25px;
+    }
+    select {
+      width: 100%;
+      border: 1px solid #d1d7db;
+      margin-bottom: 25px;
+      padding: 10px;
+    }
+    .wrapper {
+      width: 100%;
+      margin-bottom: 25px;
+
+      select {
+        height: 48px;
+        option {
+          height: 100px;
+        }
+      }
+    }
+  }
+  button {
+    border: none;
+    background-color: #00aced;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-left: 410px;
+    margin-top: 30px;
+    width: 25%;
+    margin-bottom: 30px;
+  }
+}
